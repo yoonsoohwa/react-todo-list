@@ -1,0 +1,48 @@
+.App {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.header .menu {
+  margin-left: auto;
+}
+
+.header .menu .link {
+  margin-left: 5px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table td {
+  width: 25%;
+  border: 1px solid rgb(216, 207, 207);
+  text-align: center;
+  font-size: 18px;
+}
+
+table td:first-child {
+  width: 10%;
+}
+
+button {
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  padding: 6px 12px;
+  color: #fff;
+  background-color: rgb(235, 127, 26);
+}
+
+.input_area {
+  margin-bottom: 10px;
+}
